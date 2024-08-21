@@ -1,0 +1,20 @@
+{
+    "name": "custom/admincrud",
+    "description": "ADMIN-CRUD",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Custom\\Admincrud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kowsika"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
