@@ -70,18 +70,14 @@
                                                 <a href="{{ route('admin.status',[$admin->id]) }}" class="btn btn-sm btn-outline-danger">InActive</a>
                                             @endif
                                         </td>
-              <td>
+               <td>
                             <div class="btn-group">
                   <a href="{{ route('admin.show',$admin->id) }}" method="GET" >
                   <button  type="submit" class="btn btn btn-sm " >
                     <i class="far fa-0x fa-eye"></i>
                   </button>
                 </a>
-
-
-
-
-</td>
+                </td>
        </div>
    </td>  </tr>
                @endforeach
